@@ -6,7 +6,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.User.UserBuilder;
-
+@EnableWebSecurity
 public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Override
